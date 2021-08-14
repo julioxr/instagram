@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: none;
+    text-decoration: none;
+    font-size: 11pt;
+}
+:root{
+    --main-color: rgb(156, 156, 156);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    width: 100vw;
+    height: 100vh;
+}
+.bg{
+    width: 916px;
+    height: 700px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: row;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 406px;
+    height: 100%;
+    padding: 30px;
+    margin: auto;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.img_perfil{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/perfil.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user_name{
+    font-weight: bold;
+    font-size: 15pt;
+}
+.city{
+    font-size: 11pt;
+    color: var(--main-color);
+}
+.options_user{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 30px;
+
+}
+.options_user span{
+    background-color: var(--main-color);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+
+}
+.post_image{
+    width: 510px;
+    height: 100%;
+    background-image: url(img/image_post.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.post_icons{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+#share{
+    margin-left: 220px;
+}
+.icon{
+    height: 28px;
+}
+
+.post_text{
+    width: 100%;
+    color: rgb(65, 65, 65);
+    font-size: 10px;
+}
+.links , #userpostname{
+    font-weight: bold;
+    color: #000;
+}
+.all_comments{
+    display: flex;
+    margin: 10px 0px;
+}
+#numb_comments{
+    color: var(--main-color);
+}
+.comments{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    border-top: rgb(136, 136, 136) 0.2px solid;
+}
+.comment_user{
+    color: rgb(85, 85, 85);
+}
+#submit{
+    display: flex;
+}
+.icon_comment{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+.publish{
+    color: #3EA9E5;
+    margin-left: auto;
+} 
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
